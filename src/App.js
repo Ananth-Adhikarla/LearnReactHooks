@@ -1,4 +1,10 @@
+import UseCallbackComponent from './hooks/UseCallback/UseCallbackComponent'
+import UseContextComponent from './hooks/UseContext/UseContextComponent'
+import UseImperativeComponent from './hooks/UseImperative/UseImperativeComponent'
+import { UseLayoutComponent } from './hooks/UseLayout/UseLayoutComponent'
+import UseMemoComponent from './hooks/UseMemo/UseMemoComponent'
 import UseReducerComponent from './hooks/UseReducer/UseReducerComponent'
+import UseRefComponent from './hooks/UseRef/UseRefComponent'
 import UseEffectComponent from './hooks/useEffect/UseEffectComponent'
 import UseStateHook from './hooks/useState/UseStateHook'
 
@@ -27,7 +33,13 @@ function App () {
     <div className='App'>
       {/* <UseStateHook /> */}
       {/* <UseReducerComponent /> */}
-      <UseEffectComponent />
+      {/* <UseEffectComponent /> */}
+      {/* <UseRefComponent /> */}
+      {/* <UseLayoutComponent /> */}
+      {/* <UseImperativeComponent /> */}
+      {/* <UseContextComponent /> */}
+      {/* <UseMemoComponent /> */}
+      <UseCallbackComponent />
     </div>
   )
 }
